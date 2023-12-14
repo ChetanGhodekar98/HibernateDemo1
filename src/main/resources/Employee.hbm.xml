@@ -1,0 +1,7 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="Demo.Employee" table="employee">
+        <id name="empId" column="emp_id"></id>
+        <property name="empName" column="emp_name"></property>
+        <property name="empSal" column="emp_sal"></property>
+    </class>
+</hibernate-mapping>
